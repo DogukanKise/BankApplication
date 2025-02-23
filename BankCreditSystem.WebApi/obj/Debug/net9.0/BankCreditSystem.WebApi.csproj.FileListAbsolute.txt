@@ -144,3 +144,9 @@
 /Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.WebApi/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.WebApi/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.WebApi/obj/Debug/net9.0/BankCreditSystem.WebApi.sourcelink.json
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.WebApi/bin/Debug/net9.0/AutoMapper.dll
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.WebApi/bin/Debug/net9.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.WebApi/bin/Debug/net9.0/FluentValidation.dll
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.WebApi/bin/Debug/net9.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.WebApi/bin/Debug/net9.0/MediatR.dll
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.WebApi/bin/Debug/net9.0/MediatR.Contracts.dll
