@@ -26,5 +26,7 @@ public class CustomerConfiguration : IEntityTypeConfiguration<Customer>
 
         builder.Property(c => c.IsActive)
             .HasDefaultValue(true);
+
+        builder.UseTptMappingStrategy();
     }
 } 
