@@ -1,0 +1,12 @@
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/bin/Debug/net9.0/BankCreditSystem.Core.deps.json
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/bin/Debug/net9.0/BankCreditSystem.Core.dll
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/bin/Debug/net9.0/BankCreditSystem.Core.pdb
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/obj/Debug/net9.0/BankCreditSystem.Core.csproj.AssemblyReference.cache
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/obj/Debug/net9.0/BankCreditSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/obj/Debug/net9.0/BankCreditSystem.Core.AssemblyInfoInputs.cache
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/obj/Debug/net9.0/BankCreditSystem.Core.AssemblyInfo.cs
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/obj/Debug/net9.0/BankCreditSystem.Core.csproj.CoreCompileInputs.cache
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/obj/Debug/net9.0/BankCreditSystem.Core.dll
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/obj/Debug/net9.0/refint/BankCreditSystem.Core.dll
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/obj/Debug/net9.0/BankCreditSystem.Core.pdb
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/obj/Debug/net9.0/ref/BankCreditSystem.Core.dll

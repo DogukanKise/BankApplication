@@ -1,0 +1,15 @@
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/bin/Debug/net9.0/BankCreditSystem.Domain.deps.json
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/bin/Debug/net9.0/BankCreditSystem.Domain.dll
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/bin/Debug/net9.0/BankCreditSystem.Domain.pdb
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/bin/Debug/net9.0/BankCreditSystem.Core.dll
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/bin/Debug/net9.0/BankCreditSystem.Core.pdb
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/obj/Debug/net9.0/BankCreditSystem.Domain.csproj.AssemblyReference.cache
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/obj/Debug/net9.0/BankCreditSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/obj/Debug/net9.0/BankCreditSystem.Domain.AssemblyInfoInputs.cache
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/obj/Debug/net9.0/BankCreditSystem.Domain.AssemblyInfo.cs
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/obj/Debug/net9.0/BankCreditSystem.Domain.csproj.CoreCompileInputs.cache
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/obj/Debug/net9.0/BankCred.4AAB4CE3.Up2Date
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/obj/Debug/net9.0/BankCreditSystem.Domain.dll
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/obj/Debug/net9.0/refint/BankCreditSystem.Domain.dll
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/obj/Debug/net9.0/BankCreditSystem.Domain.pdb
+/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/obj/Debug/net9.0/ref/BankCreditSystem.Domain.dll

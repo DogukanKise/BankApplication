@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/BankCreditSystem.Domain.csproj": {}
+  },
+  "projects": {
+    "/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/BankCreditSystem.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/BankCreditSystem.Core.csproj",
+        "projectName": "BankCreditSystem.Core",
+        "projectPath": "/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/BankCreditSystem.Core.csproj",
+        "packagesPath": "/Users/dogukankisecuklu/.nuget/packages/",
+        "outputPath": "/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dogukankisecuklu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/BankCreditSystem.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/BankCreditSystem.Domain.csproj",
+        "projectName": "BankCreditSystem.Domain",
+        "projectPath": "/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/BankCreditSystem.Domain.csproj",
+        "packagesPath": "/Users/dogukankisecuklu/.nuget/packages/",
+        "outputPath": "/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dogukankisecuklu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/BankCreditSystem.Core.csproj": {
+                "projectPath": "/Users/dogukankisecuklu/CursorProjects/BankApplication/BankCreditSystem.Core/BankCreditSystem.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
