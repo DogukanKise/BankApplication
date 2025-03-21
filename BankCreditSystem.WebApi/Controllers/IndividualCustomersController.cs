@@ -7,11 +7,9 @@ namespace BankCreditSystem.WebApi.Controllers;
 [ApiController]
 public class IndividualCustomersController : BaseController
 {
-
     [HttpGet("{id}")]
-    public async Task<IActionResult> GetById([FromRoute] GetByIdIndividualCustomerQuery getByIdIndividualCustomerQuery)
+    public async Task<ActionResult<GetByIdIndividualCustomerQueryResponse>> GetByIdAsync([FromRoute] Guid id)
     {
-        var result = await Mediator.Send(getByIdIndividualCustomerQuery);
-        return Ok(result);
+        return await Mediator.Send(new GetByIdIndividualCustomerQuery{Id = id});
     }
-} 
+}

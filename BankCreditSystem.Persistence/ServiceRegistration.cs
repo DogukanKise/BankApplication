@@ -16,6 +16,7 @@ public static class ServiceRegistration
             options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
 
         services.AddScoped<IIndividualCustomerRepository, IndividualCustomerRepository>();
+        services.AddScoped<ICorporateCustomerRepository,CorporateCustomerRepository>();
         return services;
     }
 } 

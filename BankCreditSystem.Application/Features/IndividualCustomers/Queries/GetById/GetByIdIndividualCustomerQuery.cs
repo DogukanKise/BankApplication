@@ -7,36 +7,31 @@ namespace BankCreditSystem.Application.Features.IndividualCustomers.Queries.GetB
 
 public class GetByIdIndividualCustomerQuery : IRequest<GetByIdIndividualCustomerQueryResponse>
 {
-    public GetByIdIndividualCustomerQueryRequest Request { get; set; } = default!;
+    public Guid Id { get; set; }
+    
+}
 
-    public class GetByIdIndividualCustomerQueryHandler 
-        : IRequestHandler<GetByIdIndividualCustomerQuery, GetByIdIndividualCustomerQueryResponse>
+public class GetByIdIndividualCustomerQueryHandler : IRequestHandler<GetByIdIndividualCustomerQuery, GetByIdIndividualCustomerQueryResponse>
+{
+    private readonly IIndividualCustomerRepository _individualCustomerRepository;
+    private readonly IMapper _mapper;
+    private readonly IndividualCustomerBusinessRules _businessRules;
+
+    public GetByIdIndividualCustomerQueryHandler(IIndividualCustomerRepository individualCustomerRepository, IMapper mapper, IndividualCustomerBusinessRules businessRules)
     {
-        private readonly IIndividualCustomerRepository _individualCustomerRepository;
-        private readonly IMapper _mapper;
-        private readonly IndividualCustomerBusinessRules _businessRules;
-
-        public GetByIdIndividualCustomerQueryHandler(
-            IIndividualCustomerRepository individualCustomerRepository, 
-            IMapper mapper, 
-            IndividualCustomerBusinessRules businessRules)
-        {
-            _individualCustomerRepository = individualCustomerRepository;
-            _mapper = mapper;
-            _businessRules = businessRules;
-        }
-
-        public async Task<GetByIdIndividualCustomerQueryResponse> Handle(
-            GetByIdIndividualCustomerQuery request, 
-            CancellationToken cancellationToken)
-        {
-            await _businessRules.IndividualCustomerShouldExistWhenRequested(request.Request.Id);
-
-            var individualCustomer = await _individualCustomerRepository.GetAsync(
-                b => b.Id == request.Request.Id,
-                cancellationToken: cancellationToken);
-
-            return _mapper.Map<GetByIdIndividualCustomerQueryResponse>(individualCustomer);
-        }
+        _individualCustomerRepository = individualCustomerRepository;
+        _mapper = mapper;
+        _businessRules = businessRules;
     }
-} 
+    public async Task<GetByIdIndividualCustomerQueryResponse> Handle(GetByIdIndividualCustomerQuery request,
+        CancellationToken cancellationToken)
+    {
+        await _businessRules.IndividualCustomerShouldExistWhenRequested(request.Id);
+
+        var individualCustomer = await _individualCustomerRepository.GetAsync(
+            b => b.Id == request.Id,
+            cancellationToken: cancellationToken);
+
+        return _mapper.Map<GetByIdIndividualCustomerQueryResponse>(individualCustomer);
+    }
+}
