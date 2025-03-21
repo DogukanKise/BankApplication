@@ -1,0 +1,20 @@
+## Build sonuçları ve derleme çıktıları
+[Bb]in/
+[Oo]bj/
+
+## Kullanıcıya özel ayarlar
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Resharper ayarları
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+## Test sonuçları
+TestResults/
+
+## Paketler
+*.nupkg
+packages/
